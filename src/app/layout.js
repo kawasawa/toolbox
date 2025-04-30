@@ -59,6 +59,11 @@ export default function RootLayout({ children }) {
                   画像処理
                 </Link>
               </li>
+              <li>
+                <Link href="/ai/chat" className="hover:text-gray-300 transition-colors">
+                  AIチャット
+                </Link>
+              </li>
             </ul>
           </nav>
         </header>
